@@ -12,7 +12,7 @@ import ContentsBox from '../components/ContentsBox';
 import TabPanel from '../components/TabPanel';
 import MuiSelectBox from '../components/MuiSelectBox';
 import Button from '../components/Button/Button';
-import BarChart from '../components/Chart/BarChart';
+// import BarChart from '../components/Chart/BarChart';
 import selectOptions from './selectOptions.js';
 
 const appBarStyles = {
@@ -116,7 +116,7 @@ export default function Compter() {
               </TabPanel>
           </ContentsBox>
           <Grid>
-            <BarChart />
+            {/*<BarChart />*/}
           </Grid>
         </ThemeProvider>
       </Grid>
